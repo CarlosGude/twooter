@@ -1,2 +1,2 @@
 # twooter
-Clone of Tweeter
+Clone of Twitter
