@@ -1,0 +1,4 @@
+api_platform:
+  title: 'MY API'
+  mapping:
+    paths: [ '%kernel.project_dir%/config/api_platform/resources' ]

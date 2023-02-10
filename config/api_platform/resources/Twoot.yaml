@@ -1,0 +1,7 @@
+App\Entity\Twoot:
+  operations:
+    ApiPlatform\Metadata\Get:
+      input: App\Dto\Output\Twoot
+    ApiPlatform\Metadata\Post:
+      input: App\Dto\Input\Twoot
+      processor: App\State\TwootStateProcessor

@@ -1,0 +1,5 @@
+App\Entity\User:
+  operations:
+    ApiPlatform\Metadata\Post:
+      input: App\Dto\Input\User
+      processor: App\State\UserStateProcessor
